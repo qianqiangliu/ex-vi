@@ -144,9 +144,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <limits.h>
-#ifndef	TIOCGWINSZ
 #include <sys/ioctl.h>
-#endif
 
 #include "config.h"
 
