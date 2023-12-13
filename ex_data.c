@@ -121,7 +121,7 @@ short	TCOLUMNS = 80;
 short	TLINES = 24;
 
 struct	option options[NOPTS + 1] = {
-	{ "autoindent",	"ai",	ONOFF,		0,	0,	0, },
+	{ "autoindent",	"ai",	ONOFF,		1,	1,	0, },
 	{ "autoprint",	"ap",	ONOFF,		1,	1,	0, },
 	{ "autowrite",	"aw",	ONOFF,		0,	0,	0, },
 	{ "beautify",	"bf",	ONOFF,		0,	0,	0, },
