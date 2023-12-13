@@ -1371,6 +1371,7 @@ vzop(int hadcnt, int cnt, register int c)
 	switch (c) {
 
 	case '.':
+	case 'z':
 	case '-':
 		break;
 

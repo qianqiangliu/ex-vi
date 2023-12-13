@@ -261,6 +261,7 @@ vcontext(register line *addr, int where)
 		break;
 
 	case '.':
+	case 'z':
 		top = vback(addr, basWLINES / 2 - vdepth());
 		getline(*addr);
 		break;
