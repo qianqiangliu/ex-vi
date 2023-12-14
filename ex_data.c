@@ -151,7 +151,7 @@ struct	option options[NOPTS + 1] = {
 	{ "shell",	"sh",	STRING,		0,	0,	shell, },
 	{ "shiftwidth",	"sw",	NUMERIC,	TABS,	TABS,	0, },
 	{ "showmatch",	"sm",	ONOFF,		0,	0,	0, },
-	{ "showmode",	"smd",	ONOFF,		0,	0,	0, },
+	{ "showmode",	"smd",	ONOFF,		1,	1,	0, },
 	{ "slowopen",	"slow",	ONOFF,		0,	0,	0, },
 	{ "sourceany",	0,	ONOFF,		0,	0,	0, },
 	{ "tabstop",	"ts",	NUMERIC,	TABS,	TABS,	0, },
